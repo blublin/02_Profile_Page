@@ -44,10 +44,6 @@ a {
     text-decoration: none;
     color: white;
 }
-.settings > a {
-    color: initial;
-    text-decoration: underline;
-}
 li > a:hover, li > a:active {
     font-weight: 600;
 
@@ -92,7 +88,6 @@ Middle Left
     margin: 0 auto; 
     height: 300px;
     border: 2px solid gray;
-    border-top-width: 0;
     margin: 30px auto;
 }
 
@@ -115,36 +110,35 @@ Middle Left
 
 .card-main {
     border: 2px solid gray;
-    border-top-width: 0;
     padding: 0 15px 10px;
 }
 .card-name {
     padding-top: 20px;
     margin-bottom: 5px;
 }   
-
 .location {
     display: flex;
     height: 25px;
     margin: 15px 0 10px;
 }
-
 .location > img {
-height: 15px;
-margin-right: 10px;
+    height: 15px;
+    margin-right: 10px;
 }
-
 .blurb {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
-
-.settings > img {
-height: 15px;
-}
-
 .settings {
-display: flex;
+    display: flex;
+    }
+.settings > img {
+    height: 15px;
 }
+.settings > a {
+    color: initial;
+    text-decoration: underline;
+}
+
 
 /* Education */
 
@@ -158,7 +152,6 @@ display: flex;
 }
 .education-main {
     border: 3px solid gray;
-    border-top-width: 0;
     padding: 20px;
 }
 .education-main > * {
@@ -173,26 +166,49 @@ Middle Right
     flex: 1;
 }
 
-/* Connection Requests */
+/* Connection Requests
+   & Your Connections*/
 
-.conn-req {
+.conn-req, .your-conn {
     margin: 30px auto;
 }
-.conn-req-main {
-    margin: 5px;
-}
-.conn-req-top {
+.conn-req-top, .your-conn-top {
     background-color: rgb(29, 29, 29);
     color: white;
     padding: 10px;
 }
-.conn-req-user {
+.conn-req-main, .your-conn-main {
+    padding: 10px;
+    border: 3px solid gray;
+}
+.conn-req-user, .your-conn-user {
     display: flex;
+    align-items: center;
+}
+
+.conn-req-user > *, .your-conn-user > * {
+    margin: 0 10px 10px 0;
 }
 .conn-req-user > * {
     flex: 1;
 }
+.conn-req-user-name {
+    flex: 2;
+}
 .profile-picture {
-    height: 45px;
+    height: 30px;
     border-radius: 50%;
+}
+.yes, .no {
+    font-size: 20px;
+    border-radius: 50%;
+}
+.your-conn-bottom {
+    padding: 10px;
+    border: 3px solid grey;
+    border-top-width: 0;
+}
+.your-conn-bottom > a {
+        color: initial;
+        text-decoration: underline;
 }
