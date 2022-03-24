@@ -41,11 +41,16 @@ TOP BAR SECTION
 a {
     justify-content: flex-end;
     font-size: 16px;
-    color: white;
     text-decoration: none;
+    color: white;
+}
+.settings > a {
+    color: initial;
+    text-decoration: underline;
 }
 li > a:hover, li > a:active {
     font-weight: 600;
+
 }
 #sign-out {
     background-color:rgb(88, 171, 185);
@@ -64,10 +69,28 @@ MAIN BODY SECTION
 ==========
 */
 
-.card {
+#main-body {
     width: 700px;
+    margin: 0px auto;
+    display: flex;
+    padding: 8px;
+}
+
+/* 
+Middle Left
+*/
+
+.middle-left {
+    margin-right: 30px;
+    flex: 2;
+}
+
+/* Card */
+
+.card {
+    max-width: 700px;
     margin: 0 auto; 
-    height: 250px;
+    height: 300px;
     border: 2px solid gray;
     margin: 30px auto;
 }
@@ -79,23 +102,28 @@ MAIN BODY SECTION
     padding-left: 15px
 }
 
-.profile-picture {
-height: 60px;
-border: 3px solid white;
-border-radius: 50%;
-margin-top: 40px;
+.user-profile-picture {
+    height: 75px;
+    border-radius: 50%;
+}
+
+.my-picture {
+    border: 3px solid white;
+    margin-top: 40px;
 }
 
 .card-main {
-padding-left: 15px;
+    padding: 0 15px 10px;
 }
 .card-name {
-margin-bottom: 5px;
-}
+    padding-top: 20px;
+    margin-bottom: 5px;
+}   
 
 .location {
-display: flex;
-height: 25px;
+    display: flex;
+    height: 25px;
+    margin: 15px 0 10px;
 }
 
 .location > img {
@@ -113,4 +141,54 @@ height: 15px;
 
 .settings {
 display: flex;
+}
+
+/* Education */
+
+.education-top {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 10px;
+}
+.education-top > h4 {
+    margin-left: 15px;
+}
+.education-main {
+    border: 3px solid gray;
+    padding: 20px;
+}
+.education-main > * {
+    margin-bottom: 5px;
+}
+
+/*
+Middle Right
+*/
+
+.middle-right {
+    flex: 1;
+}
+
+/* Connection Requests */
+
+.conn-req {
+    margin: 30px auto;
+}
+.conn-req-main {
+    margin: 5px;
+}
+.conn-req-top {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 10px;
+}
+.conn-req-user {
+    display: flex;
+}
+.conn-req-user > * {
+    flex: 1;
+}
+.profile-picture {
+    height: 45px;
+    border-radius: 50%;
 }
