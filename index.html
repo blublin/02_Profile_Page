@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container"> 
+    <div id="container"> 
         <!-- Header -->
-        <div class="top-bar"> <!-- extend -->
+        <div id="top-bar"> <!-- extend -->
             <div class="nav">
                 <ul class="nav-links">
                     <h1 class="nav-title">Profile</h1>
@@ -27,11 +27,11 @@
 
         <!-- Main Body -->
         <div id="main-body">
-            <div class="middle-left">
+            <div id="middle-left">
 
                 <!-- Profile Card -->
 
-                <div class="card">
+                <div id="card">
                     <div class="card-top-bar">
                         <img src="imgs/ben_l.jpg" alt="user image" class="user-profile-picture my-picture">
                     </div>
@@ -52,7 +52,7 @@
 
                 <!-- Education -->
 
-                <div class="education">
+                <div id="education">
                     <div class="education-top">
                         <h4>Education</h3>
                     </div>
@@ -64,12 +64,12 @@
                 </div>
             </div>
 
-            <div class="middle-right">
+            <div id="middle-right">
 
                 <!-- Connect Requests -->
-                <div class="conn-req">
+                <div id="conn-req">
                     <div class="conn-req-top">
-                        <!-- Some bubble number -->
+                        <button class="conn-req-count">2</button>
                         <h4>Connections Requests</h4>
                     </div>
                     <div class="conn-req-main">
@@ -90,9 +90,9 @@
 
                 <!-- Your Connections -->
 
-                <div class="your-conn">
+                <div id="your-conn">
                     <div class="your-conn-top">
-                        <!-- Some bubble number -->
+                        <button class="your-conn-count">500+</button>
                         <h4>Your Connections</h4>
                     </div>
                     <div class="your-conn-main">
@@ -120,7 +120,10 @@
             </div>
         </div>
 
+        <!-- Footer -->
+        <div id="bottom-bar">
 
+        </div>
     </div>
 </body>
 </html>
