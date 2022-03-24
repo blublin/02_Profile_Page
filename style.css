@@ -55,7 +55,7 @@ li > a:hover, li > a:active {
     border-width: 3px;
     border-radius: 3px;
     font-size: 16px;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px rgb(255, 255, 255);
     padding: 5px 10px;
 }
 
@@ -95,17 +95,14 @@ Middle Left
     background-color: rgb(13, 184, 251);
     padding-left: 15px
 }
-
 .user-profile-picture {
     height: 75px;
     border-radius: 50%;
 }
-
 .my-picture {
     border: 3px solid white;
     margin-top: 20px;
 }
-
 .card-main {
     border: 2px solid gray;
     padding: 40px 15px 10px;
@@ -201,7 +198,6 @@ Middle Right
     display: flex;
     align-items: center;
 }
-
 .conn-req-user > *, .your-conn-user > * {
     margin: 0 10px 10px 0;
 }
