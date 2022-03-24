@@ -87,7 +87,7 @@ Middle Left
     max-width: 700px;
     margin: 0 auto; 
     height: 300px;
-    margin: 30px auto;
+    margin: 30px auto 10px;
 }
 
 .card-top-bar {
@@ -131,6 +131,7 @@ Middle Left
     }
 .settings > img {
     height: 15px;
+    margin-right: 5px;
 }
 .settings > a {
     color: initial;
@@ -170,8 +171,11 @@ Middle Right
 /* Connection Requests
    & Your Connections*/
 
-#conn-req, #your-conn {
-    margin: 30px auto;
+#conn-req {
+    margin: 30px auto 20px;
+}
+#your-conn {
+    margin: 0 auto;
 }
 .conn-req-top, .your-conn-top {
     background-color: rgb(29, 29, 29);
