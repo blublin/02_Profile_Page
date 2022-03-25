@@ -185,9 +185,13 @@ Middle Right
     border-radius: 50%;
     padding: 3px 8px;
     font-size: 15px;
+    border: 0;
 }
 .your-conn-count {
     padding: 6px 8px;
+}
+.conn-button {
+    pointer-events: none;
 }
 .conn-req-main, .your-conn-main {
     padding: 10px;
@@ -222,8 +226,4 @@ Middle Right
 .your-conn-bottom > a {
     color: initial;
     text-decoration: underline;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a911005c4960708cce8f9e41f94e65b53b3e2796
