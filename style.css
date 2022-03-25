@@ -186,6 +186,10 @@ Middle Right
     border-radius: 50%;
     padding: 3px 8px;
     font-size: 15px;
+    border: 0;
+}
+button.conn-button:hover {
+    pointer-events: none;
 }
 .your-conn-count {
     padding: 6px 8px;
