@@ -46,7 +46,6 @@ a {
 }
 li > a:hover, li > a:active {
     font-weight: 600;
-
 }
 #sign-out {
     background-color:rgb(88, 171, 185);
@@ -221,6 +220,6 @@ Middle Right
     border-top-width: 0;
 }
 .your-conn-bottom > a {
-        color: initial;
-        text-decoration: underline;
+    color: initial;
+    text-decoration: underline;
 }
